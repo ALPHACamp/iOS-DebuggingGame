@@ -15,7 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        if NSUserDefaults.standardUserDefaults().valueForKey(Constant.name) == nil {
+            let sb = UIStoryboard(name: "Main", bundle: nil)
+            application.windows.first?.rootViewController = sb.instantiateViewControllerWithIdentifier("FirstTimeVC")
+        }
         return true
     }
 
