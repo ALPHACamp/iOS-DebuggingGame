@@ -21,8 +21,8 @@ class SettingNameViewController: UIViewController {
         let defaults = NSUserDefaults.standardUserDefaults()
         defaults.setValue(nameTextField.text!, forKey: Constant.name)
         defaults.setValue(avatar, forKey: Constant.avatar)
-        defaults.setValue("9", forKey: Constant.attack)
-        defaults.setValue("8", forKey: Constant.defense)
+        defaults.setValue("100", forKey: Constant.attack)
+        defaults.setValue("100", forKey: Constant.defense)
         defaults.synchronize()
         
         let sb = UIStoryboard(name: "Main", bundle: nil)

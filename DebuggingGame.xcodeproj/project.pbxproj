@@ -16,6 +16,10 @@
 		D3C610571D016DB5003038B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C610561D016DB5003038B9 /* Assets.xcassets */; };
 		D3C6105A1D016DB5003038B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C610581D016DB5003038B9 /* LaunchScreen.storyboard */; };
 		D3C610621D019A21003038B9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C610611D019A21003038B9 /* ProfileViewController.swift */; };
+		D3CBD6B41D04110500AE443A /* BattleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CBD6B31D04110500AE443A /* BattleViewController.swift */; };
+		D3CBD6B61D0411E200AE443A /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CBD6B51D0411E200AE443A /* Unit.swift */; };
+		D3CBD6BC1D0419CF00AE443A /* EnemiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CBD6BB1D0419CF00AE443A /* EnemiesViewController.swift */; };
+		D3CBD6BE1D041E4A00AE443A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CBD6BD1D041E4A00AE443A /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		D3C610591D016DB5003038B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D3C6105B1D016DB5003038B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3C610611D019A21003038B9 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D3CBD6B31D04110500AE443A /* BattleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BattleViewController.swift; sourceTree = "<group>"; };
+		D3CBD6B51D0411E200AE443A /* Unit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
+		D3CBD6BB1D0419CF00AE443A /* EnemiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemiesViewController.swift; sourceTree = "<group>"; };
+		D3CBD6BD1D041E4A00AE443A /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,10 @@
 				D332C5621D02AF9B000AB35A /* ChoosingAvatarTableViewController.swift */,
 				D332C5641D02F73B000AB35A /* SettingNameViewController.swift */,
 				D332C5661D03132F000AB35A /* Constant.swift */,
+				D3CBD6B31D04110500AE443A /* BattleViewController.swift */,
+				D3CBD6B51D0411E200AE443A /* Unit.swift */,
+				D3CBD6BB1D0419CF00AE443A /* EnemiesViewController.swift */,
+				D3CBD6BD1D041E4A00AE443A /* StringExtension.swift */,
 			);
 			path = DebuggingGame;
 			sourceTree = "<group>";
@@ -147,11 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3CBD6B41D04110500AE443A /* BattleViewController.swift in Sources */,
 				D3C610621D019A21003038B9 /* ProfileViewController.swift in Sources */,
+				D3CBD6BE1D041E4A00AE443A /* StringExtension.swift in Sources */,
 				D332C5651D02F73B000AB35A /* SettingNameViewController.swift in Sources */,
 				D332C55F1D02AE3F000AB35A /* Avatar.swift in Sources */,
 				D332C5631D02AF9B000AB35A /* ChoosingAvatarTableViewController.swift in Sources */,
+				D3CBD6B61D0411E200AE443A /* Unit.swift in Sources */,
 				D3C6104E1D016DB5003038B9 /* AppDelegate.swift in Sources */,
+				D3CBD6BC1D0419CF00AE443A /* EnemiesViewController.swift in Sources */,
 				D332C5671D03132F000AB35A /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

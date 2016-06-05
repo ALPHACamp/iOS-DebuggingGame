@@ -17,11 +17,10 @@ class ProfileViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let defaults = NSUserDefaults.standardUserDefaults()
-        nameLabel.text  = defaults.valueForKey(Constant.name) as? String
-        attackLabel.text = "attack: \(defaults.valueForKey(Constant.attack) as! String)"
-        defenseLabel.text = "defense: \(defaults.valueForKey(Constant.defense) as! String)"
-        avatarImageView.image = UIImage(named: defaults.valueForKey(Constant.avatar) as! String)
+        nameLabel.text  = Unit.champion.name
+        attackLabel.text = "attack: \(Unit.champion.attack)"
+        defenseLabel.text = "defense: \(Unit.champion.defense)"
+        avatarImageView.image = UIImage(named: Unit.champion.avatar!)
     }
 
     override func didReceiveMemoryWarning() {

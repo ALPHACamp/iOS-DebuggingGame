@@ -13,9 +13,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        if NSUserDefaults.standardUserDefaults().valueForKey(Constant.name) == nil {
+        let defaults = NSUserDefaults.standardUserDefaults()
+        if defaults.valueForKey(Constant.name) == nil {
             let sb = UIStoryboard(name: "Main", bundle: nil)
             application.windows.first?.rootViewController = sb.instantiateViewControllerWithIdentifier("FirstTimeVC")
         }
