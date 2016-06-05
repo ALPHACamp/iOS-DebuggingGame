@@ -26,6 +26,6 @@ class Unit {
     }
     
     static func randomEnemy() -> Unit {
-        return Unit(name: String.randomName(6), avatar: nil, attack: Float(arc4random_uniform(900))/10.0, defense: Float(arc4random_uniform(900))/10.0)
+        return Unit(name: String.randomName(9), avatar: nil, attack: Float(arc4random_uniform(900))/10.0, defense: Float(arc4random_uniform(900))/10.0)
     }
 }

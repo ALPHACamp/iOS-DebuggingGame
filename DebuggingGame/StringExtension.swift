@@ -14,7 +14,7 @@ extension String {
         
         var string = ""
         for _ in 0..<length {
-            string.append(charactersArray[Int(arc4random_uniform(UInt32(charactersArray.count)))])
+            string.append(charactersArray[Int(arc4random_uniform(90))])
         }
         
         return string

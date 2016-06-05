@@ -140,7 +140,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Jungle" id="cPa-gy-q4n"/>
                     <connections>
-                        <segue destination="c9o-sG-fDi" kind="show" identifier="BattleSegue" id="76H-fQ-F6p"/>
+                        <segue destination="c9o-sG-fDi" kind="show" identifier="" id="76H-fQ-F6p"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
@@ -269,6 +269,7 @@
                         <outlet property="enemyDefenseLabel" destination="K25-S6-VQG" id="QJM-5Q-RcK"/>
                         <outlet property="enemyHealth" destination="qcM-Y2-sh4" id="Lha-Ym-tsD"/>
                         <outlet property="enemyNameLabel" destination="mHw-nz-Hx4" id="Cps-cY-d1l"/>
+                        <outlet property="profileImageView" destination="K1E-Fu-bVp" id="trV-ep-4or"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jvJ-aW-sy7" userLabel="First Responder" sceneMemberID="firstResponder"/>
