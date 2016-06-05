@@ -14,11 +14,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
         let defaults = NSUserDefaults.standardUserDefaults()
         if defaults.valueForKey(Constant.name) == nil {
             let sb = UIStoryboard(name: "Main", bundle: nil)
             application.windows.first?.rootViewController = sb.instantiateViewControllerWithIdentifier("FirstTimeVC")
         }
+        
+        UINavigationBar.appearance().barTintColor = UIColor.gameMainColor()
+        UINavigationBar.appearance().tintColor = UIColor.whiteColor()
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
         return true
     }
 

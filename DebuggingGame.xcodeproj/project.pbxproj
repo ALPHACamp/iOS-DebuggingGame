@@ -20,6 +20,7 @@
 		D3CBD6B61D0411E200AE443A /* Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CBD6B51D0411E200AE443A /* Unit.swift */; };
 		D3CBD6BC1D0419CF00AE443A /* EnemiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CBD6BB1D0419CF00AE443A /* EnemiesViewController.swift */; };
 		D3CBD6BE1D041E4A00AE443A /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3CBD6BD1D041E4A00AE443A /* StringExtension.swift */; };
+		D3D546101D047F0500D3E983 /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D5460F1D047F0500D3E983 /* GameColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		D3CBD6B51D0411E200AE443A /* Unit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Unit.swift; sourceTree = "<group>"; };
 		D3CBD6BB1D0419CF00AE443A /* EnemiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemiesViewController.swift; sourceTree = "<group>"; };
 		D3CBD6BD1D041E4A00AE443A /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		D3D5460F1D047F0500D3E983 /* GameColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				D3CBD6B51D0411E200AE443A /* Unit.swift */,
 				D3CBD6BB1D0419CF00AE443A /* EnemiesViewController.swift */,
 				D3CBD6BD1D041E4A00AE443A /* StringExtension.swift */,
+				D3D5460F1D047F0500D3E983 /* GameColor.swift */,
 			);
 			path = DebuggingGame;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				D3CBD6B61D0411E200AE443A /* Unit.swift in Sources */,
 				D3C6104E1D016DB5003038B9 /* AppDelegate.swift in Sources */,
 				D3CBD6BC1D0419CF00AE443A /* EnemiesViewController.swift in Sources */,
+				D3D546101D047F0500D3E983 /* GameColor.swift in Sources */,
 				D332C5671D03132F000AB35A /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
